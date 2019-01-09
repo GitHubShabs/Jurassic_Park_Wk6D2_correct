@@ -4,13 +4,13 @@ const Park = function(name, price) {
   this.dinosaurs = [];
 }
 
-Park.prototype.addDinosaur = function (dinosaur) {
+Park.prototype.addDinosaur = function(dinosaur) {
   this.dinosaurs.push(dinosaur);
 };
 
-Park.prototype.removeDinosaur = function (dinosaur) {
+Park.prototype.removeDinosaur = function(dinosaur) {
   const dinoNumber = this.dinosaurs.indexOf(dinosaur);
-  this.dinosaur.splice(dinoNumber, 1);
+  this.dinosaurs.splice(dinoNumber, 1);
 };
 
 
